@@ -1,0 +1,21 @@
+1. git init => Used to initialise empty git repository
+   Description: This command divides your folder in 3 logical areas
+                a.) Workstation (Mall)
+                b. ) Staging    (Bucket)
+                c. ) Local Repo (Billing)
+
+2. git add . => This command will transfer all the files from Workstation
+                to Staging area
+
+3. git commit -m "comment" => This Command will commit all the staging files
+
+4. git remote add remoteName githubUrl => This command will add the conncetion
+    from your local repo to centralised github repo
+
+5. git push remoteName main => this command will shift all the local commits
+                                to remote repo
+
+6. git reset => This command will send all the file from staging area back to 
+                Workstation
+
+7. git status => this command will tell the current status of your local repo
